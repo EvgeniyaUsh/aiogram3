@@ -5,7 +5,7 @@ from aiogram.filters import Command, CommandStart
 from aiogram.types import Message
 
 # import app.keyboards as akb
-from app.clients_setup import upload_to_s3
+from app.aws_tasks import upload_to_s3
 from bot_config import bot
 
 router = Router()
